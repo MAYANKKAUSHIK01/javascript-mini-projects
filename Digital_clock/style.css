@@ -1,0 +1,46 @@
+body{
+    background-image: url("pexels-pixabay-122429.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+}
+
+/* center container */
+#clock-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+/* glass box */
+#glass-box{
+    padding:40px 60px;
+    border-radius:20px;
+
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+
+    border:1px solid rgba(255,255,255,0.2);
+    box-shadow:0 8px 32px rgba(0,0,0,0.3);
+
+    text-align:center;
+}
+
+/* clock */
+#clock{
+    font-family: monospace;
+    font-size:6em;
+    font-weight:bold;
+    color:white;
+}
+
+/* date */
+#date{
+    font-family: Arial;
+    font-size:1.5em;
+    margin-top:10px;
+    color:white;
+}

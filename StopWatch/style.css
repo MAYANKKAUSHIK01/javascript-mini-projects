@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display :flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content:center;
+    background-image: url(pexels-pixabay-122429.jpg);
+    border:2px solid ;
+    background-size: cover;
+}
+#myh1{
+    text-align: center;
+    font-size: 4rem;
+    font-family: Arial;
+    color: rgba(247, 246, 246, 0.913);
+    text-shadow: 5px;
+}
+#container{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items:center;
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    width: fit-content;
+    margin: 0 auto;
+}
+#display{
+    font-size: 5em;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bolder;
+    color: rgb(14, 14, 15);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.804);
+}
+
+#controls button{
+    font-size: 1.5em;
+    font-weight: bolder;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: black;
+    transition: background-color 0,5s ease;
+}
+
+#start{
+    background-color: aqua;
+}
+#start:hover{
+    background-color:rgb(9, 189, 239);
+}
+#stop{
+    background-color: rgb(255, 77, 0);
+}
+#stop:hover{
+    background-color:rgb(220, 157, 19);
+}
+#reset{
+    background-color: rgb(108, 17, 227);
+}
+#reset:hover{
+    background-color:rgb(80, 7, 249);
+}
