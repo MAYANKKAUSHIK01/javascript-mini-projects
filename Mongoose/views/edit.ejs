@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZEdit Massage</title>
+</head>
+<body>
+    <h2>Edit Your massage</h2>
+    <p>This massage is send by <b><%=chat.from%></b> to <b><%=chat.to%></b></p>
+    <form method="post" action="/chats/<%= chat.id%>?_method=PUT">
+       <textarea  rows="5" cols="30" name="msg"> <%=chat.msg%></textarea><br><br>
+       <button>save</button>
+    </form>
+</body>
+</html>

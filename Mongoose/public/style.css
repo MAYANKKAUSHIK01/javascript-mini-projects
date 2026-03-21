@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    margin-left: 40px ;
+}
+
+.chats{
+  margin:0 10 0px;
+  background-color: aquamarine;
+  color: black;
+  display: inline-block;
+  border-radius: 15px;
+  padding: 10px 15px;
+}
+.msg{
+    background-color: rgb(0, 255, 81);
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.btn{
+    margin: 20px 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    color: black;
+    padding: 8px 12px;
+    font-size: medium;
+}
